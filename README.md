@@ -1,22 +1,22 @@
 # OPM-Mine
 
-官网:http://openethmine.com
+# OpenEthMine官网:http://openethmine.com
 
-介绍
+# 介绍
 我们决定开放我们的以太坊混合采矿实施。它只关心工作分配和共享验证; 有效份额存储在本地数据库（LevelDB）中。
 
-性能
+# 性能
 尽管目前的实施可能不是最有效的方法，但该池能够以30％CPU利用率（1核）和70MB RAM使用率处理大约600名员工。
 
-支持的客户端
+# 支持的客户端
 该池已经与Ethereum客户端（geth）和cpp以太坊客户端（eth）成功进行了测试。
 
-拉取请求和可能的优化
+# 请求与优化
 如果您发现游泳池软件存在任何问题，请随时发出拉取请求。
 
 如果你想改进池，通过IPC实现连接而不是HTTP将是一个好的开始。
 
-安装指南（Ubuntu 14.04）
+# 安装指南（Ubuntu 14.04）
 按照https://github.com/ethereum/go-ethereum/wiki/Installing-Go#ubuntu-1404安装
 将pool.go文件放入你的gopath中
 运行去下载依赖关系
